@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#f4f4f4;
+    font-family: Arial,sans-serif;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+#display{
+    font-size:50px;
+    margin:20px 0;
+}
